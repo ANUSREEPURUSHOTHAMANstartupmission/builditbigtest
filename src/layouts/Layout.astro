@@ -1,0 +1,113 @@
+---
+const { title } = Astro.props;
+
+import Navbar from "../components/Navbar.astro";
+
+const description = "Kerala Startup Mission is the central agency of the Government of Kerala for entrepreneurship development and incubation activities in Kerala, India.";
+const url = "https://startupmission.kerala.gov.in/";
+
+---
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Kerala Startup Mission</title>
+    <meta name="author" content="Themeholy">
+    <meta name="description" content="Kerala Startup Mission">
+    <meta name="keywords" content="Kerala Startup Mission">
+    <meta name="robots" content="INDEX,FOLLOW">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Favicons - Place favicon.ico in the root directory -->
+    
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
+
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--==============================
+	  Google Fonts
+	============================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--==============================
+	    All CSS File
+	============================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Fontawesome Icon -->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <!-- Swiper Slider -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+
+
+<body >    
+	<Navbar></Navbar>
+		<slot />
+		
+		<!--  ALl JS Plugins
+		====================================== -->
+	
+    <!-- Scroll To Top -->
+    <div class="scroll-top">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
+        </svg>
+    </div>
+
+    <!--==============================
+    All Js File
+============================== -->
+    <!-- Jquery -->
+    <script src="assets/js/vendor/jquery-3.7.1.min.js" is:inline ></script>
+    <!-- Swiper Slider -->
+    <script src="assets/js/swiper-bundle.min.js" is:inline ></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js" is:inline ></script>
+    <!-- Magnific Popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js" is:inline ></script>
+    <!-- Counter Up -->
+    <script src="assets/js/jquery.counterup.min.js" is:inline ></script>
+    <!-- Circle Progress -->
+    <script src="assets/js/circle-progress.js" is:inline ></script>
+    <!-- Range Slider -->
+    <script src="assets/js/jquery-ui.min.js" is:inline ></script>
+    <!-- Isotope Filter -->
+    <script src="assets/js/imagesloaded.pkgd.min.js" is:inline ></script>
+    <script src="assets/js/isotope.pkgd.min.js" is:inline ></script>
+    <!-- Tilt JS -->
+    <script src="assets/js/tilt.jquery.min.js" is:inline ></script>
+
+    <!-- gsap -->
+    <script src="assets/js/gsap.min.js" is:inline ></script>
+    <!-- ScrollTrigger -->
+    <script src="assets/js/ScrollTrigger.min.js" is:inline ></script>
+    <script src="assets/js/smooth-scroll.js" is:inline ></script>
+
+    <!-- Particles JS -->
+    <script src="assets/js/particles.min.js" is:inline ></script>
+
+    <script src="assets/js/particles-config.js" is:inline ></script>
+    <!-- Main Js File -->
+    <script src="assets/js/main.js" is:inline ></script>
+
+</body>
+
+</html>
